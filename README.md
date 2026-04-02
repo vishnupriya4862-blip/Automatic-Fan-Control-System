@@ -1,2 +1,33 @@
-# Automatic-Fan-Control-System
-Automatic fan control system using ESP32 and DHT11 sensor.
+# Automatic Fan Control System
+
+## Description
+
+This project automatically controls a fan based on temperature using ESP32 and DHT11 sensor.
+
+## Components Used
+
+* ESP32
+* DHT11 Temperature Sensor
+* Relay Module
+* Fan
+* Jumper wires
+
+## Working Principle
+
+The DHT11 sensor measures temperature. If temperature exceeds a threshold (28°c), the relay turns ON the fan. Otherwise, the fan remains OFF.
+
+## Technologies Used
+
+* Embedded C
+* Arduino IDE
+
+## Applications
+
+* Smart home automation.
+* Temperature-based cooling systems.
+
+## Future Implements
+
+* Integration with IoT for remote monitoring and control.
+* Use of PWM for variable fan speed control.
+* Implementation of hysteresis to avoid frequent switching.
