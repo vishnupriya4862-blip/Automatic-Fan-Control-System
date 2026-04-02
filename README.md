@@ -33,7 +33,7 @@ The DHT11 sensor measures temperature. If temperature exceeds a threshold (28°C
 * Implementation of hysteresis to avoid frequent switching.
 
 ## Block Diagram
-![Block Diagram](block_diagram.jpeg
+![Block Diagram](block_diagram.jpeg)
 
 This diagram shows the connection between ESP32, DHT11 sensor, relay module, and fan.
 
