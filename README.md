@@ -14,7 +14,7 @@ This project automatically controls a fan based on temperature using ESP32 and D
 
 ## Working Principle
 
-The DHT11 sensor measures temperature. If temperature exceeds a threshold (28°c), the relay turns ON the fan. Otherwise, the fan remains OFF.
+The DHT11 sensor measures temperature. If temperature exceeds a threshold (28°C), the relay turns ON the fan. Otherwise, the fan remains OFF.
 
 ## Technologies Used
 
@@ -36,3 +36,8 @@ The DHT11 sensor measures temperature. If temperature exceeds a threshold (28°c
 ![Block Diagram](block_diagram.jpeg
 
 This diagram shows the connection between ESP32, DHT11 sensor, relay module, and fan.
+
+## Output / Result
+
+* Fan turns ON when temperature exceeds 28°C.
+* Fan turns OFF when temperature decreases.
