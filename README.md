@@ -26,8 +26,13 @@ The DHT11 sensor measures temperature. If temperature exceeds a threshold (28°c
 * Smart home automation.
 * Temperature-based cooling systems.
 
-## Future Implements
+## Future Improvements
 
 * Integration with IoT for remote monitoring and control.
 * Use of PWM for variable fan speed control.
 * Implementation of hysteresis to avoid frequent switching.
+
+## Block Diagram
+![Block Diagram](block_diagram.jpeg
+
+This diagram shows the connection between ESP32, DHT11 sensor, relay module, and fan.
